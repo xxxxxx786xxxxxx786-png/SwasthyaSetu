@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MHRMS - Doctor Login</title>
+  <link rel="stylesheet" href="Doctor.css">
+</head>
+<body>
+
+
+    <header>
+    <div class="logo" aria-label="Migrant Health Records logo">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+      MHRMS
+    </div>
+    <nav>
+      <button class="home" aria-current="page">Home</button>
+      <a href="Migrantworker.html" role="link">Migrant Portal</a>
+      <a href="Doctor.html" role="link">Doctor Portal</a>
+      <a href="government.html" role="link">Government</a>
+    </nav>
+  </header>
+
+  <!-- Login Section -->
+  <div class="login-container">
+    <img src="https://img.icons8.com/ios-filled/100/27f4d2/stethoscope.png" alt="Doctor Icon">
+    <h2>Doctor Login</h2>
+    <p>Access the medical portal with your credentials</p>
+
+    <div class="login-box">
+      <form>
+        <label for="doctorId">Doctor ID</label>
+        <input type="text" id="doctorId" placeholder="Enter your Doctor ID">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+
+        <button type="submit" class="login-btn">🔐 Login to Portal</button>
+      </form>
+      <a href="#" class="back-btn">⬅ Back to Home</a>
+    </div>
+  </div>
+
+</body>
+</html>
